@@ -1,9 +1,4 @@
-track="$1"
-exercise="$2"
+. exercism_helper_vars.sh
 
-exercism_home="$HOME/exercism"
-webstorm_home="$HOME/WebstormProjects"
+cp --no-clobber -r "${exercism_exercise_dir}" "${webstorm_track_dir}/."
 
-exercism_file="$exercism_home/${track}/${exercise}/file"
-
-cp "${exercism_home}/*" "${webstorm_home}/${track}_${exercise}/."
