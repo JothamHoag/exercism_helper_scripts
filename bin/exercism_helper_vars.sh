@@ -1,5 +1,5 @@
-export track="$1"
-export exercise="$2"
+export exercise="$1"
+export track="javascript"
 
 export exercism_home="$HOME/exercism"
 export exercism_exercise_dir="${exercism_home}/${track}/${exercise}"
